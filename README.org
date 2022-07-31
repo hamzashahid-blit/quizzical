@@ -5,7 +5,7 @@ I built this completely on my own as a solo project task from a course.
 Here is a preview of what my app looks like:
 [[file:src/assets/starter-screen-app-preview.png]]
 [[file:src/assets/quiz-app-preview.png]]
-[[file:src/assets/answer-app-preview.png]]
+[[file:src/assets/answers-app-preview.png]]
 
 This project was bootstrapped with [[https://github.com/facebook/create-react-app][Create React App]].
 
