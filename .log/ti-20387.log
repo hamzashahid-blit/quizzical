@@ -1,0 +1,39 @@
+[11:14:57.951] Global cache location '/home/hamza/.cache/typescript/4.7', safe file path '/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[11:14:57.952] Processing cache location '/home/hamza/.cache/typescript/4.7'
+[11:14:57.952] Trying to find '/home/hamza/.cache/typescript/4.7/package.json'...
+[11:14:57.953] Loaded content of '/home/hamza/.cache/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.602"},"devDependencies":{"@types/babel__core":"^7.1.19","@types/babel__preset-env":"^7.9.2","@types/react":"^18.0.15","@types/react-dom":"^18.0.6"}}
+[11:14:57.953] Loaded content of '/home/hamza/.cache/typescript/4.7/package-lock.json'
+[11:14:57.962] Adding entry into typings cache: 'babel__core' => '/home/hamza/.cache/typescript/4.7/node_modules/@types/babel__core/index.d.ts'
+[11:14:57.963] Adding entry into typings cache: 'babel__preset-env' => '/home/hamza/.cache/typescript/4.7/node_modules/@types/babel__preset-env/index.d.ts'
+[11:14:57.966] Adding entry into typings cache: 'react' => '/home/hamza/.cache/typescript/4.7/node_modules/@types/react/index.d.ts'
+[11:14:57.967] Adding entry into typings cache: 'react-dom' => '/home/hamza/.cache/typescript/4.7/node_modules/@types/react-dom/index.d.ts'
+[11:14:57.967] Finished processing cache location '/home/hamza/.cache/typescript/4.7'
+[11:14:57.967] Process id: 20394
+[11:14:57.967] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[11:14:57.967] validateDefaultNpmLocation: false
+[11:14:57.967] Npm config file: /home/hamza/.cache/typescript/4.7/package.json
+[11:14:57.967] Updating types-registry npm package...
+[11:14:57.967] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[11:14:58.745]     Succeeded. stdout:
+    
+    up to date, audited 16 packages in 553ms
+
+found 0 vulnerabilities
+
+[11:14:58.746] Updated types-registry npm package
+[11:14:59.419] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/hamza/dev/react/quizzical/src/App.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/hamza/dev/react/quizzical/src","kind":"discover"}
+[11:14:59.429] Loaded safelist from types map file '/home/hamza/.emacs.d/var/lsp/server/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[11:14:59.429] Explicitly included types: []
+[11:14:59.429] Inferred typings from unresolved imports: []
+[11:14:59.430] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/hamza/dev/react/quizzical/src/bower_components","/home/hamza/dev/react/quizzical/src/node_modules"]}
+[11:14:59.430] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/hamza/dev/react/quizzical/src/bower_components","/home/hamza/dev/react/quizzical/src/node_modules"]}
+[11:14:59.430] DirectoryWatcher:: Added:: WatchInfo: /home/hamza/dev/react/quizzical/src/bower_components
+[11:14:59.431] DirectoryWatcher:: Added:: WatchInfo: /home/hamza/dev/react/quizzical/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[11:14:59.432] Elapsed:: 1.1541649997234344ms DirectoryWatcher:: Added:: WatchInfo: /home/hamza/dev/react/quizzical/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[11:14:59.432] DirectoryWatcher:: Added:: WatchInfo: /home/hamza/dev/react/quizzical/src/node_modules
+[11:14:59.432] DirectoryWatcher:: Added:: WatchInfo: /home/hamza/dev/react/quizzical/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[11:14:59.432] Elapsed:: 0.08566999807953835ms DirectoryWatcher:: Added:: WatchInfo: /home/hamza/dev/react/quizzical/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[11:14:59.432] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[11:14:59.433] Response has been sent.
+[11:14:59.433] No new typings were requested as a result of typings discovery
